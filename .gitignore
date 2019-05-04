@@ -1,0 +1,6 @@
+ignore everything
+*
+
+# Un-ignore all of:
+!README.md
+!.gitignore
