@@ -4,5 +4,6 @@ ignore everything
 # Un-ignore all of:
 !README.md
 !.vimrc
-!.bash
+!.bashrc
+!.bash_profile
 !.gitignore
