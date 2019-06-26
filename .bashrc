@@ -1,3 +1,3 @@
-cd ~/Google\ Drive/Valgfag/python
+cd ~/Documents
 alias python='python3'
 alias pip='pip3'

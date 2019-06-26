@@ -1,7 +1,6 @@
 set number
 set autowriteall
 
-syntax off
 filetype indent plugin on
 
 let mapleader=","
@@ -12,7 +11,6 @@ set timeout timeoutlen=1500
 """""""""""""""""""""""""""""""""""
 set noswapfile
 
-
 """"""""""""""""""""""""""""""""""""
 " color themes
 """"""""""""""""""""""""""""""""""""
@@ -21,6 +19,7 @@ set noswapfile
 """""""""""""""
 set t_Co=256 " colors
 highlight Normal guifg=#4f8c88 guibg=#022e34
+
 
 """""""""""""""""""""""""""""""""""
 " Plugins
@@ -50,7 +49,6 @@ call plug#end()
 """""""""""""""""""""""""""""""""
 " autocmd vimenter * NERDTree
 map <C-n> :NERDTreeToggle<CR>
-
 
 
 
