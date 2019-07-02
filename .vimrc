@@ -1,5 +1,9 @@
 set number
 set autowriteall
+set background=light
+
+let g:gruvbox_contrast_dark = 'soft'
+let g:gruvbox_contrast_light = 'medium'
 
 filetype indent plugin on
 
@@ -41,7 +45,8 @@ endif
 " directory for plugins
 call plug#begin('~/.vim/plugged')
 
-let g:gruvbox_contrast_dark = 'hard'
+"let g:gruvbox_contrast_dark = 'soft'
+"let g:gruvbox_contrast_light = 'hard'
 Plug 'morhetz/gruvbox'
 
 call plug#end()
@@ -49,5 +54,3 @@ call plug#end()
 """"""""""""""""""
 "" Groove box """"
 """"""""""""""""""
-
-" set background=dark
