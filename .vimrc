@@ -14,6 +14,11 @@ set noswapfile
 """"""""""""""""""""""""""""""""""""
 " color themes
 """"""""""""""""""""""""""""""""""""
+" syntax on
+colorscheme gruvbox
+" colorscheme bw
+
+
 """""""""""""""
 " Colors and fonts
 """""""""""""""
@@ -36,19 +41,13 @@ endif
 " directory for plugins
 call plug#begin('~/.vim/plugged')
 
-" file and directory tree
-Plug 'scrooloose/nerdtree'
-
-" Comments
-Plug 'scrooloose/nerdcommenter'
+let g:gruvbox_contrast_dark = 'hard'
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 
-"""""""""""""""""""""""""""""""""
-" NerdTree
-"""""""""""""""""""""""""""""""""
-" autocmd vimenter * NERDTree
-map <C-n> :NERDTreeToggle<CR>
+""""""""""""""""""
+"" Groove box """"
+""""""""""""""""""
 
-
-
+" set background=dark
