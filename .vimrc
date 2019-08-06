@@ -1,11 +1,11 @@
 set number
 set autowriteall
-set background=light
+" set background=dark
 
-let g:gruvbox_contrast_dark = 'soft'
-let g:gruvbox_contrast_light = 'medium'
+"let g:gruvbox_contrast_dark = 'medium'
+"let g:gruvbox_contrast_light = 'medium'
 
-filetype indent plugin on
+" filetype indent plugin on
 
 let mapleader=","
 set timeout timeoutlen=1500
@@ -17,18 +17,15 @@ set noswapfile
 
 """"""""""""""""""""""""""""""""""""
 " color themes
-""""""""""""""""""""""""""""""""""""
-" syntax on
-colorscheme gruvbox
+"colorscheme gruvbox
 " colorscheme bw
-
 
 """""""""""""""
 " Colors and fonts
 """""""""""""""
-set t_Co=256 " colors
-highlight Normal guifg=#4f8c88 guibg=#022e34
-
+" set t_Co=256 " colors
+" highlight Normal guifg=#4f8c88 guibg=#022e34
+"highlight Normal guibg=#042E34 
 
 """""""""""""""""""""""""""""""""""
 " Plugins
@@ -45,12 +42,15 @@ endif
 " directory for plugins
 call plug#begin('~/.vim/plugged')
 
-"let g:gruvbox_contrast_dark = 'soft'
-"let g:gruvbox_contrast_light = 'hard'
-Plug 'morhetz/gruvbox'
+" Plug 'morhetz/gruvbox'
 
 call plug#end()
 
 """"""""""""""""""
 "" Groove box """"
 """"""""""""""""""
+
+syntax off
+
+
+
