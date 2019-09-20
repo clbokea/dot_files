@@ -1,11 +1,8 @@
 set number
 set autowriteall
-" set background=dark
+set background=dark
 
-"let g:gruvbox_contrast_dark = 'medium'
-"let g:gruvbox_contrast_light = 'medium'
-
-" filetype indent plugin on
+filetype indent plugin on
 
 let mapleader=","
 set timeout timeoutlen=1500
@@ -17,8 +14,7 @@ set noswapfile
 
 """"""""""""""""""""""""""""""""""""
 " color themes
-"colorscheme gruvbox
-" colorscheme bw
+" colorscheme PaperColor
 
 """""""""""""""
 " Colors and fonts
@@ -43,14 +39,13 @@ endif
 call plug#begin('~/.vim/plugged')
 
 " Plug 'morhetz/gruvbox'
-
+" Plug 'NLKNguyen/papercolor-theme'
 call plug#end()
 
-""""""""""""""""""
-"" Groove box """"
-""""""""""""""""""
+""""""""""""""""""""""""
+"" plugin end """"""""""
+""""""""""""""""""""""""
 
 syntax off
-
 
 

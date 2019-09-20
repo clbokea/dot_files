@@ -7,3 +7,5 @@ ignore everything
 !.bashrc
 !.bash_profile
 !.gitignore
+!.tmux.conf
+
